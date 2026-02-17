@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1771329829" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/CompBin.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="CompBin_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1771358177" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/CompBin.dcp">
   <File Type="RDS-DCP" Name="CompBin.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="CompBin_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="CompBin_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="CompBin_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="CompBin.vds"/>
   <File Type="REPORTS-TCL" Name="CompBin_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="CompBin_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="CompBin.tcl"/>
+  <File Type="RDS-UTIL" Name="CompBin_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CompBin_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/CompBin.sv">
@@ -45,9 +42,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

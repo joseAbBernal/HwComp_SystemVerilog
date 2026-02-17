@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+========================================
+Testbench completed successfully ^o^ :) 
+========================================
+$finish called at time : 306960 ns : File "/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sim_1/new/CompBinTBSV.sv" Line 214917
+========================================
+Testbench completed successfully ^o^ :) 
+========================================
+$finish called at time : 306960 ns : File "/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sim_1/new/CompBinTBSV.sv" Line 214917

@@ -32,10 +32,10 @@ module CompBin(
         if (rst) begin
             S <= 8'b0;                      /*Set the output value to 0 i.e. 0x00*/
         end else begin
-            if (A >= B) begin                /*Comapre input A and B if A greater than B*/
-                S <= A;
-            end else begin
-                S <= B;
+            if (A >= B) begin               /*Comapre input A and B if A greater than B*/
+                S <= A;                     /*Set A input as the greatest value even if A==B*/
+            end else begin                  /*else case B is greater than A*/
+                S <= B;                     /*Set B input as the greatest value*/
             end;
         end;
     end;
