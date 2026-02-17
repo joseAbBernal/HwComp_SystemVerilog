@@ -1,0 +1,42 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 02/17/2026 01:03:02 PM
+// Design Name: 
+// Module Name: CompBin
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module CompBin(
+    input clk,
+    input rst,
+    input [7:0] A,
+    input [7:0] B,
+    output reg [7:0] S
+    );
+    
+    always @ (posedge clk) begin
+        if (rst) begin
+            S <= 8'b0;                      /*Set the output value to 0 i.e. 0x00*/
+        end else begin
+            if (A >= B) begin                /*Comapre input A and B if A greater than B*/
+                S <= A;
+            end else begin
+                S <= B;
+            end;
+        end;
+    end;
+endmodule
