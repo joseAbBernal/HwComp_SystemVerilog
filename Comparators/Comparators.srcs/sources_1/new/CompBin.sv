@@ -21,11 +21,11 @@
 
 
 module CompBin(
-    input clk,
-    input rst,
-    input [7:0] A,
-    input [7:0] B,
-    output reg [7:0] S
+    input clk,                              /*Clock signal input*/
+    input rst,                              /*Reset signal input*/
+    input [7:0] A,                          /*Input A*/
+    input [7:0] B,                          /*Input B*/
+    output reg [7:0] S                      /*Output S*/
     );
     
     always @ (posedge clk) begin
