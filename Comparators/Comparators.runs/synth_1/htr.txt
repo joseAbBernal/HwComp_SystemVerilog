@@ -7,4 +7,4 @@
 # Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 #
 
-vivado -log Comp4L.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Comp4L.tcl
+vivado -log CompHL.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CompHL.tcl
