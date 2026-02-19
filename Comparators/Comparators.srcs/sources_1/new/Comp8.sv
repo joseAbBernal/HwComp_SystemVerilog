@@ -21,22 +21,22 @@
 
 
 module Comp8(
-    input clk,
-    input rst,
-    input [7:0] A,
-    input [7:0] B,
-    input [7:0] C,
-    input [7:0] D,
-    input [7:0] E,
-    input [7:0] F,
-    input [7:0] G,
-    input [7:0] H,
-    output [7:0] S
+    input clk,              /*Clock input*/
+    input rst,              /*Reset input*/
+    input [7:0] A,          /*A input*/
+    input [7:0] B,          /*B input*/
+    input [7:0] C,          /*C input*/
+    input [7:0] D,          /*D input*/
+    input [7:0] E,          /*E input*/
+    input [7:0] F,          /*F input*/
+    input [7:0] G,          /*G input*/
+    input [7:0] H,          /*H input*/
+    output [7:0] S          /*S output*/
     );
     
     /*Signals or wires*/
-    wire [7:0] S0;
-    wire [7:0] S1;
+    wire [7:0] S0;          /*Result value of comapring A,B,C,D*/
+    wire [7:0] S1;          /*Result value of comparing E,F,G,H*/
     
     /*4 input comparator*/
     Comp4 Comp4_0(
