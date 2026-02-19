@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sim_1/new/Comp4LTB.sv,1771523332,systemVerilog,,,,Comp4LTB,,uvm,,,,,,
+/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sources_1/new/Comp4L.sv,1771521065,systemVerilog,,/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sources_1/new/CompBinL.sv,,Comp4L,,uvm,,,,,,
+/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sources_1/new/CompBinL.sv,1771520947,systemVerilog,,/home/sidbrun/Documents/CVA6/HwDesigns/HwComp_SystemVerilog/Comparators/Comparators.srcs/sim_1/new/Comp4LTB.sv,,CompBinL,,uvm,,,,,,

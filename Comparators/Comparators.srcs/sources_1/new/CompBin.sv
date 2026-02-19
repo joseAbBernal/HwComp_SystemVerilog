@@ -35,9 +35,9 @@ module CompBin(
             Ss <= 8'bz;             /*Set the output value to High Z*/
         end else begin
             if (A >= B) begin       /*Comapre input A and B if A greater than B*/
-                Ss <= A;            /*Set A input as the greatest value even if A==B*/
+                Ss = A;             /*Set A input as the greatest value even if A==B*/
             end else begin          /*else case B is greater than A*/
-                Ss <= B;            /*Set B input as the greatest value*/
+                Ss = B;             /*Set B input as the greatest value*/
             end;
         end;
     end;

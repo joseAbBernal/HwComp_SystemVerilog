@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1771521139">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Comp4L_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Comp4L_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="Comp4L.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Comp4L.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Comp4L.ltx"/>
+  <File Type="RBD_FILE" Name="Comp4L.rbd"/>
+  <File Type="NPI_FILE" Name="Comp4L.npi"/>
+  <File Type="RNPI_FILE" Name="Comp4L.rnpi"/>
+  <File Type="CFI_FILE" Name="Comp4L.cfi"/>
+  <File Type="RCFI_FILE" Name="Comp4L.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="Comp4L_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Comp4L_boot.pdi"/>
+  <File Type="RDI-RDI" Name="Comp4L.vdi"/>
+  <File Type="PDI-FILE" Name="Comp4L.pdi"/>
+  <File Type="BITSTR-MMI" Name="Comp4L.mmi"/>
+  <File Type="BITSTR-BMM" Name="Comp4L_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Comp4L.nky"/>
+  <File Type="BITSTR-RBT" Name="Comp4L.rbt"/>
+  <File Type="BITSTR-MSK" Name="Comp4L.msk"/>
+  <File Type="BG-BIN" Name="Comp4L.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="Comp4L.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Comp4L_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Comp4L_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Comp4L_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Comp4L_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Comp4L_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Comp4L_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Comp4L_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Comp4L_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="Comp4L.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="Comp4L_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Comp4L_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Comp4L_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Comp4L_bus_skew_routed.rpt"/>
+  <File Type="PA-TCL" Name="Comp4L.tcl"/>
+  <File Type="INIT-TIMING" Name="Comp4L_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Comp4L_opt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="Comp4L_rqa_opted.pb"/>
+  <File Type="OPT-DRC" Name="Comp4L_drc_opted.rpt"/>
+  <File Type="PLACE-TIMING" Name="Comp4L_timing_summary_placed.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Comp4L_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Comp4L_utilization_placed.pb"/>
+  <File Type="OPT-HWDEF" Name="Comp4L.hwdef"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Comp4L_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Comp4L_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Comp4L_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Comp4L_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Comp4L_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Comp4L_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Comp4L_placed.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="Comp4L_rqa_placed.pb"/>
+  <File Type="PLACE-IO" Name="Comp4L_io_placed.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Comp4L_timing_summary_physopted.rpt"/>
+  <File Type="PLACE-CLK" Name="Comp4L_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Comp4L_utilization_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Comp4L_control_sets_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Comp4L_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Comp4L_incremental_reuse_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Comp4L_methodology_drc_routed.pb"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Comp4L_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Comp4L_drc_routed.rpx"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Comp4L_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Comp4L_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Comp4L_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Comp4L_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Comp4L_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Comp4L_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Comp4L_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Comp4L_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Comp4L_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Comp4L_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Comp4L_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Comp4L_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Comp4L_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Comp4L_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Comp4L_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Comp4L_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Comp4L_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Comp4L_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Comp4L_clock_utilization_routed.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CompBinL.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comp4L.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comp4.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CompBin.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comp8.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Comp4L"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/CompBin.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
