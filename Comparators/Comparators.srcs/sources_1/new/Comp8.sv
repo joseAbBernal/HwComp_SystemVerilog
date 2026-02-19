@@ -61,7 +61,7 @@ module Comp8(
     );
     
     /*2 input comparator*/
-    CompBin CompBin2(       /*Binary compartor to compare S0,S1*/
+    CompBin CompBin(       /*Binary compartor to compare S0,S1*/
     .clk    (clk),          /*Clock signal input*/
     .rst    (rst),          /*Reset signal input*/
     .A      (S0),           /*Input S0*/
