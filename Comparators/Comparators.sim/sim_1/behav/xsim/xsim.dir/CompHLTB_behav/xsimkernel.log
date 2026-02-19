@@ -1,0 +1,4 @@
+Running: xsim.dir/CompHLTB_behav/xsimk -simmode gui -wdb CompHLTB_behav.wdb -simrunnum 0 -socket 39791
+Design successfully loaded
+Design Loading Memory Usage: 208968 KB (Peak: 208976 KB)
+Design Loading CPU Usage: 990 ms
